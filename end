@@ -1,0 +1,17 @@
+[33mcommit 9da73e2f9b43d74d7fffa55ddd5abcd9463937e4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: ezeigboemmanuel <ezeigboemmanuel2@gmail.com>
+Date:   Fri Mar 17 23:31:14 2023 +0100
+
+    added dangerouslySetInnerHTML
+
+[33mcommit 16ced3030e3f15f8764f396e769509890bfa4290[m
+Author: ezeigboemmanuel <ezeigboemmanuel2@gmail.com>
+Date:   Fri Mar 17 21:53:36 2023 +0100
+
+    installed marked
+
+[33mcommit 72e67926cff5da7ae126be9863920ac39afa8f5e[m
+Author: ezeigboemmanuel <ezeigboemmanuel2@gmail.com>
+Date:   Fri Mar 17 21:28:17 2023 +0100
+
+    initial commit from terminal

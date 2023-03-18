@@ -1,5 +1,7 @@
 .App {
-  margin-left: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
 code{
   background-color: gainsboro;
@@ -9,6 +11,10 @@ img{
 }
 
 textarea{
-  width: 700px;
-  height: 400px;
+  width: 40vw;
+  height: 100vh;
+  resize: none;
 }
+/* .markdown-editor{
+  height: 100vh;
+} */

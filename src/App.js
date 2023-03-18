@@ -9,13 +9,14 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>MARKDOWN EDITOR</h1>
-      <div>
+      <div className='markdown-editor'>
+        <h4>&#9998; Markdown editor</h4>
         <textarea id="editor" onChange = {handleChange} value = {text}>
         </textarea>
       </div>
-      <div id = "preview">
-          <div dangerouslySetInnerHTML = {{ __html: marked.parse(text) }} />
+      <div className='markdown-previewer'>
+        <h4>&#9989; Markdown previewer</h4>
+          <div id = "preview" dangerouslySetInnerHTML = {{ __html: marked.parse(text) }} />
       </div>
     </div>
   );
