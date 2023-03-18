@@ -15,6 +15,10 @@ textarea{
   height: 100vh;
   resize: none;
 }
-/* .markdown-editor{
-  height: 100vh;
-} */
+
+.footer{
+  width: 100%;
+}
+.footer_text{
+  text-align: center;
+}

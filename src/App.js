@@ -18,6 +18,9 @@ function App() {
         <h4>&#9989; Markdown previewer</h4>
           <div id = "preview" dangerouslySetInnerHTML = {{ __html: marked.parse(text) }} />
       </div>
+      <div className='footer'>
+        <p className='footer_text'>Made by <a href = "https://github.com/ezeigboemmanuel" target= "_blank">Ezeigbo Emmanuel</a></p>
+      </div>
     </div>
   );
 }
